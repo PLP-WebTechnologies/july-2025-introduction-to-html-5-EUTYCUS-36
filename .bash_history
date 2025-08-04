@@ -41,3 +41,28 @@ cp math_demo.py /sdcard/Download/
 pkg install termux-api
 termux-setup-storage
 cp math_demo.py /sdcard/Download/
+pkg update && pkg upgrade -y
+pkg install git -y
+git clone https://github.com/EUTYCUS-36/july-2025-introduction-to-html-5-EUTYCUS-36.git
+touch index.html
+pkg update && pkg upgrade -y
+pkg install git -y
+pkg install nano -y
+git clone https://github.com/EUTYCUS-36/july-2025-introduction-to-html-5-EUTYCUS-36.git
+cd july-2025-introduction-to-html-5-EUTYCUS-36
+ls
+pwd
+cd july-2025-introduction-to-html-5-EUTYCUS-36
+git remote -v
+git remote set-url origin https://github.com/EUTYCUS-36/july-2025-introduction-to-html-5-EUTYCUS-36.git
+git remote -v
+git push origin main
+git remote set-url origin https://ghp_YOURTOKEN@github.com/PLP-WebTechnologies/july-2025-introduction-to-html-5-EUTYCUS-36.git
+cd ~
+cd july-2025-introduction-to-html-5-EUTYCUS-36   # Only if cloned successfully
+nano index.html    # Or skip if already created and edited
+y
+git add index.html
+git commit -m "Add HTML5 assignment with semantic structure and accessibility"
+git push origin main
+git pull origin main --allow-unrelated-histories
